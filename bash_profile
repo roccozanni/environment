@@ -21,5 +21,4 @@ parse_svn_revision() {
 	echo " [svn $REV$DIRTY]"
 }
 
-
 export PS1='\[\e[1;32m\]\u@\h\[\e[m\] : \[\e[1;34m\]\W\[\e[m\]\[\e[1;31m\]$(parse_git_branch)$(parse_svn_revision)\[\e[m\] \$ '
