@@ -1,1 +1,1 @@
-My work enviroment files and configurations
+Work enviroment configuration files
