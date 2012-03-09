@@ -5,7 +5,6 @@ export PATH=$PATH:/usr/local/sbin
 export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
-# Prompt setup, with SCM status
 parse_git_branch() {
 	local DIRTY STATUS
 	STATUS=$(git status 2>/dev/null)
